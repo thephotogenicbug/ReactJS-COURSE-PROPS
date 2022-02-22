@@ -1,0 +1,15 @@
+What is PROPS ?
+
+Props - "props is a short for "properties" " Example (RealTime Object : Emplyee Id, Employee Name, Employee Skill, Employee Location )
+Props - are read only
+Props - Function Parameters (Props equals to Function Parameter)
+
+props are used to pass data from a parent component to child component in React
+
+Props === Function Parameter (Example)
+
+function Employee(id, name){
+    console.log(id)
+    console.log(name)
+}
+Employee(1001, "Naveen")
